@@ -1,0 +1,12 @@
+{
+  "app": {
+    "welcome": "Bienvenue sur Kuma",
+    "subtitle": "Centre d'appel",
+    "status": "Socle prêt : écran, API et base de données fonctionnent."
+  },
+  "language": {
+    "label": "Langue",
+    "fr": "Français",
+    "en": "English"
+  }
+}

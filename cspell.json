@@ -7,10 +7,19 @@
     "kuma", "XiVO", "XuC", "confd", "WebRTC", "PBX",
     "NestJS", "nestjs", "TypeScript", "Vite", "Tailwind", "shadcn",
     "PostgreSQL", "postgres", "Redis", "BullMQ", "Caddy", "ghcr",
-    "frontend", "backend", "deploy", "compose", "kanimbahub"
+    "frontend", "backend", "deploy", "compose", "kanimbahub",
+    "français", "english"
   ],
   "overrides": [
-    { "filename": "**/locales/fr.json", "language": "fr" },
-    { "filename": "**/locales/en.json", "language": "en" }
+    {
+      "filename": "**/locales/fr.json",
+      "language": "fr",
+      "ignoreRegExpList": ["/\"[A-Za-z0-9_.-]+\"\\s*:/g"]
+    },
+    {
+      "filename": "**/locales/en.json",
+      "language": "en",
+      "ignoreRegExpList": ["/\"[A-Za-z0-9_.-]+\"\\s*:/g"]
+    }
   ]
 }
