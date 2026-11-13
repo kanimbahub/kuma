@@ -31,3 +31,20 @@ jobs:
         run: npm install --no-save --no-package-lock cspell@9 @cspell/dict-fr-fr
       - name: Vérifier les textes
         run: npx cspell --no-progress --no-must-find-files "**/*.md" "frontend/src/locales/**/*.json"
+
+  backend:
+    name: Backend (build + tests)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: backend/package-lock.json
+      - run: npm ci
+      - run: npm run build
+      - run: npm test
