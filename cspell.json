@@ -11,7 +11,15 @@
     "français", "english"
   ],
   "overrides": [
-    { "filename": "**/locales/fr.json", "language": "fr" },
-    { "filename": "**/locales/en.json", "language": "en" }
+    {
+      "filename": "**/locales/fr.json",
+      "language": "fr",
+      "ignoreRegExpList": ["/\"[A-Za-z0-9_.-]+\"\\s*:/g"]
+    },
+    {
+      "filename": "**/locales/en.json",
+      "language": "en",
+      "ignoreRegExpList": ["/\"[A-Za-z0-9_.-]+\"\\s*:/g"]
+    }
   ]
 }
