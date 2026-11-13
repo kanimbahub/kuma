@@ -1,0 +1,16 @@
+{
+  "version": "0.2",
+  "language": "fr,en",
+  "import": ["@cspell/dict-fr-fr/cspell-ext.json"],
+  "ignorePaths": ["node_modules", "dist", "build", "coverage", "package-lock.json", ".git"],
+  "words": [
+    "Kuma", "XiVO", "XuC", "confd", "WebRTC", "PBX",
+    "NestJS", "TypeScript", "Vite", "Tailwind", "shadcn",
+    "PostgreSQL", "Redis", "BullMQ", "Caddy", "ghcr",
+    "frontend", "backend", "deploy", "compose", "kanimbahub"
+  ],
+  "overrides": [
+    { "filename": "**/locales/fr.json", "language": "fr" },
+    { "filename": "**/locales/en.json", "language": "en" }
+  ]
+}

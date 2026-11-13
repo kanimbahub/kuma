@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  compose:
+    name: Compose valide
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Vérifier compose.dev.yml
+        run: |
+          cp deploy/.env.example deploy/.env
+          docker compose -f deploy/compose.dev.yml config --quiet
+
+  orthographe:
+    name: Orthographe
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+      - name: Installer cspell et le dictionnaire français
+        run: npm install --no-save --no-package-lock cspell@9 @cspell/dict-fr-fr
+      - name: Vérifier les textes
+        run: npx cspell --no-progress --no-must-find-files "**/*.md" "frontend/src/locales/**/*.json"
