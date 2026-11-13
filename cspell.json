@@ -7,7 +7,8 @@
     "kuma", "XiVO", "XuC", "confd", "WebRTC", "PBX",
     "NestJS", "nestjs", "TypeScript", "Vite", "Tailwind", "shadcn",
     "PostgreSQL", "postgres", "Redis", "BullMQ", "Caddy", "ghcr",
-    "frontend", "backend", "deploy", "compose", "kanimbahub"
+    "frontend", "backend", "deploy", "compose", "kanimbahub",
+    "français", "english"
   ],
   "overrides": [
     { "filename": "**/locales/fr.json", "language": "fr" },

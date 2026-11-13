@@ -1,0 +1,12 @@
+{
+  "app": {
+    "welcome": "Welcome to Kuma",
+    "subtitle": "Call center",
+    "status": "Foundation ready: screen, API and database are running."
+  },
+  "language": {
+    "label": "Language",
+    "fr": "Français",
+    "en": "English"
+  }
+}
