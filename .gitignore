@@ -1,0 +1,16 @@
+# Dépendances et builds
+node_modules/
+dist/
+build/
+coverage/
+
+# Secrets : jamais dans Git
+.env
+.env.*
+!.env.example
+
+# Divers
+*.log
+.DS_Store
+.vscode/
+.idea/
