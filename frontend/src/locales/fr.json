@@ -1,12 +1,30 @@
 {
   "app": {
     "welcome": "Bienvenue sur Kuma",
-    "subtitle": "Centre d'appel",
-    "status": "Socle prêt : écran, API et base de données fonctionnent."
+    "subtitle": "Centre d'appel"
   },
   "language": {
     "label": "Langue",
     "fr": "Français",
     "en": "English"
+  },
+  "login": {
+    "title": "Connexion de l'agent",
+    "username": "Identifiant",
+    "password": "Mot de passe",
+    "phone": "Poste",
+    "submit": "Se connecter",
+    "loading": "Connexion en cours…",
+    "error": {
+      "libs": "Impossible de charger les bibliothèques XiVO. Ouvrez le serveur XuC dans le navigateur et acceptez son certificat.",
+      "credentials": "Identifiant ou mot de passe incorrect.",
+      "network": "Le serveur XiVO ne répond pas. Réessayez dans un instant.",
+      "lost": "La connexion au serveur a été perdue. Connectez-vous à nouveau."
+    }
+  },
+  "agent": {
+    "connected": "Connecté : {{username}}, poste {{phone}}",
+    "lineReady": "Ligne téléphonique prête",
+    "lineWaiting": "Configuration de la ligne en cours…"
   }
 }

@@ -1,12 +1,30 @@
 {
   "app": {
     "welcome": "Welcome to Kuma",
-    "subtitle": "Call center",
-    "status": "Foundation ready: screen, API and database are running."
+    "subtitle": "Call center"
   },
   "language": {
     "label": "Language",
     "fr": "Français",
     "en": "English"
+  },
+  "login": {
+    "title": "Agent sign-in",
+    "username": "Username",
+    "password": "Password",
+    "phone": "Extension",
+    "submit": "Sign in",
+    "loading": "Signing in…",
+    "error": {
+      "libs": "Unable to load the XiVO libraries. Open the XuC server in your browser and accept its certificate.",
+      "credentials": "Incorrect username or password.",
+      "network": "The XiVO server is not responding. Please try again in a moment.",
+      "lost": "The connection to the server was lost. Please sign in again."
+    }
+  },
+  "agent": {
+    "connected": "Signed in: {{username}}, extension {{phone}}",
+    "lineReady": "Phone line ready",
+    "lineWaiting": "Setting up the phone line…"
   }
 }

@@ -68,6 +68,7 @@ services:
     environment:
       HOME: /tmp
       NPM_CONFIG_UPDATE_NOTIFIER: "false"
+      VITE_XUC_HOST: "${XIVO_CC_HOST}:8443"
     volumes:
       - ../frontend:/app
     ports:

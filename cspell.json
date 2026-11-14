@@ -14,12 +14,12 @@
     {
       "filename": "**/locales/fr.json",
       "language": "fr",
-      "ignoreRegExpList": ["/\"[A-Za-z0-9_.-]+\"\\s*:/g"]
+      "ignoreRegExpList": ["/\"[A-Za-z0-9_.-]+\"\\s*:/g", "/\\{\\{[^}]*\\}\\}/g"]
     },
     {
       "filename": "**/locales/en.json",
       "language": "en",
-      "ignoreRegExpList": ["/\"[A-Za-z0-9_.-]+\"\\s*:/g"]
+      "ignoreRegExpList": ["/\"[A-Za-z0-9_.-]+\"\\s*:/g", "/\\{\\{[^}]*\\}\\}/g"]
     }
   ]
 }
