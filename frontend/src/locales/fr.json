@@ -26,5 +26,25 @@
     "connected": "Connecté : {{username}}, poste {{phone}}",
     "lineReady": "Ligne téléphonique prête",
     "lineWaiting": "Configuration de la ligne en cours…"
+  },
+  "phone": {
+    "start": "Démarrer le téléphone",
+    "starting": "Démarrage du téléphone…",
+    "ready": "Téléphone prêt",
+    "failed": "Le téléphone n'a pas pu démarrer. Vérifiez l'accès au micro.",
+    "number": "Numéro à appeler",
+    "call": "Appeler",
+    "incoming": "Appel entrant : {{caller}}",
+    "unknownCaller": "numéro inconnu",
+    "answer": "Décrocher",
+    "decline": "Refuser",
+    "hangup": "Raccrocher",
+    "hold": "Mettre en attente",
+    "resume": "Reprendre",
+    "state": {
+      "dialing": "Appel de {{party}} en cours…",
+      "established": "En communication avec {{party}}",
+      "onHold": "Appel en attente"
+    }
   }
 }

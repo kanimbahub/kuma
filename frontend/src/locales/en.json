@@ -26,5 +26,25 @@
     "connected": "Signed in: {{username}}, extension {{phone}}",
     "lineReady": "Phone line ready",
     "lineWaiting": "Setting up the phone line…"
+  },
+  "phone": {
+    "start": "Start phone",
+    "starting": "Starting phone…",
+    "ready": "Phone ready",
+    "failed": "The phone could not start. Check microphone access.",
+    "number": "Number to call",
+    "call": "Call",
+    "incoming": "Incoming call: {{caller}}",
+    "unknownCaller": "unknown number",
+    "answer": "Answer",
+    "decline": "Decline",
+    "hangup": "Hang up",
+    "hold": "Put on hold",
+    "resume": "Resume",
+    "state": {
+      "dialing": "Calling {{party}}…",
+      "established": "On a call with {{party}}",
+      "onHold": "Call on hold"
+    }
   }
 }
